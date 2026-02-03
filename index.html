@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minha Calculadora JavaScript</title>
+    <link rel="icon" type="image/x-icon" href="calc.svg">
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -12,30 +13,30 @@
             <div id="visor1"><p id="numero"></p></div>
         </div>
         <div class="linha1">
-            <button id="botao7" onmouseup="botao7()">7</button>
-            <button id="botao8" onmouseup="botao8()">8</button>
-            <button id="botao9" onmouseup="botao9()">9</button>
-            <button id="botaoC" onmouseup="botaoC()">c
+            <button class="bnt" onclick="botao(7)">7</button>
+            <button  class="bnt" onclick="botao(8)">8</button>
+            <button  class="bnt" onclick="botao(9)">9</button>
+            <button  class="bnt" onclick="botaoC()">c
 </button>
         </div>
         <div class="linha2">
-            <button id="botao4" onclick="botao4()">4</button>
-            <button id="botao5" onclick="botao5()">5</button>
-            <button id="botao6" onclick="botao6()">6</button>
-            <button id="botaovezes" onclick="botaovezes()">x</button>
+            <button  class="bnt" onclick="botao(4)">4</button>
+            <button  class="bnt" onclick="botao(5)">5</button>
+            <button  class="bnt" onclick="botao(6)">6</button>
+            <button  class="bnt" onclick="botao('*')">x</button>
         </div>
         <div class="linha3">
-            <button id="botao1" onclick="botao1()">1</button>
-            <button id="botao2" onclick="botao2()">2</button>
-            <button id="botao3" onclick="botao3()">3</button>
-            <button id="botaomenos" onclick="botaomenos()">-</button>
+            <button  class="bnt" onclick="botao(1)">1</button>
+            <button  class="bnt" onclick="botao(2)">2</button>
+            <button  class="bnt" onclick="botao(3)">3</button>
+            <button  class="bnt" onclick="botao('-')">-</button>
         </div>
 
         <div class="linha4">
-            <button id="botao0" onclick="botao0()">0</button>
-            <button id="botaoponto" onclick="botaoponto()">/</button>
-            <button id="botaoigual" onclick="botaoigual()">=</button>
-            <button id="botaomais" onclick="botaomais()">+</button>
+            <button  class="bnt" onclick="botao(0)">0</button>
+            <button  class="bnt" onclick="botao('/')">/</button>
+            <button  class="bnt" onclick="botaoigual()">=</button>
+            <button  class="bnt" onclick="botao('+')">+</button>
         </div>
     </div>
     <script src="script.js"></script>
