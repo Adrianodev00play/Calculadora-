@@ -17,6 +17,7 @@ html, body{
     gap: 10px;
     border-radius: 3px;
     border: 2px solid black;
+    min-width: 280px;
 }
 
 .visores{
