@@ -52,7 +52,7 @@ function botao0()
 }
 function botaoponto()
 {
-    document.getElementById("numero").innerText+="."
+    document.getElementById("numero").innerText+="/"
 }
 function botaomais()
 {
